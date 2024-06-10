@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+    color:whitesmoke;
+}
+input{
+    margin: 20px 20px;
+    padding: 8px 15px;
+    background-color: azure;
+    color: dimgrey;
+    border-radius: 30px;
+    font-size: larger;
+    border: 2px solid lightblue !important;
+    outline: none;
+}
+button{
+    margin: 15px auto;
+    font-size: medium;
+    padding: 8px 15px;
+    border-radius:15px;
+    background-color: black;
+    color: cadetblue;
+    border: 3px solid slategray;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color:slategray;
+}
+i{
+    color:slategray;
+    padding: 8px 8px;
+}
+.card-img, img{
+    margin: 8px auto;
+    width: 200px;
+    border-radius: 50%;
+}
+.container{ 
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.main{
+    width: 70vw;
+    min-width: 330px;
+    text-align: center;
+    padding: 35px 20px;
+}
+h1{
+    padding: 15px 15px;
+    color: chocolate;
+}
+.card{
+    width: 25rem;
+    background:rgb(132, 182, 182) ;
+    box-shadow: 1px 2px 3px ;
+    padding: 15px;
+    margin: 25px;
+}
+.card-title{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.card-subHeading{
+    font-size: medium;
+    color:lightcyan ;
+}
+#profile .car{
+    border: 1px solid linen;
+    border-radius: 15px;
+}
+#repo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    border: 2px solid red;
+}
+
+#repo .card{
+    border: 2px solid red;
+    border-radius: 15px;
+}
